@@ -1,0 +1,140 @@
+ {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Corpo da página */ 
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #fce4ec;
+color: #333;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cabeçalho */
+header {
+background-color: #f30e97;
+color: white;
+text-align: center;
+padding: 40px 0;
+border-bottom: 5px solid #bd054e;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+font-size: 48px;
+font-weight: bold;
+letter-spacing: 1px;
+margin-bottom: 10px;
+}
+
+.subheading {
+font-size: 20px;
+font-weight: 300;
+}
+
+/* Seção de detalhes do filme */
+.movie-details {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.movie-info {
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+max-width: 700px;
+width: 100%;
+text-align: center;
+}
+
+.movie-info h2 {
+font-size: 32px;
+color: #ff66b2;
+margin-bottom: 20px;
+}
+
+.movie-info p {
+font-size: 18px;
+margin-bottom: 12px;
+line-height: 1.6;
+color: #555;
+}
+
+.movie-info strong {
+color: #ff3385;
+}
+
+/* Estilo da imagem */
+.movie-image {
+width: 100%;
+max-width: 350px;
+border-radius: 10px;
+margin-bottom: 20px;
+transition: transform 0.3s ease;
+}
+
+.movie-image:hover {
+transform: scale(1.05);
+}
+
+/* Botõo */
+button {
+background-color: #ff66b2;
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 30px;
+font-size: 18px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #fd1d77;
+}
+
+.more info {
+display: none;
+margin-top: 30px;
+text-align: left;
+font-size: 16px;
+color: #777;
+  
+}
+
+/* Rodapé */
+footer {
+background-color: #f50c81;
+color: white;
+text-align: center;
+padding: 20px 0;
+margin-top: 50px;
+font-size: 14px;
+border-top: 5px solid #b80a4f;
+}
+
+/* Efeito de animação */
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+body {
+animation: fadeIn 1s ease-out;
+}
