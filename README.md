@@ -1,6 +1,6 @@
 # Teste Prático Aprendiz Front-end O POVO
 Este repositório foi criado com intuito de disponibilizar os pré-requisitos e o teste prático para se tornar um Aprendiz Front-end do Grupo de Comunicação O POVO.
-
+ 
 ## Atividade
 
 Fazer uma landing page de especificações do filme da Barbie! :) 
@@ -18,6 +18,8 @@ Layout do site (Versões Desk, Tablet e Mobile)
 - Fontes Web 
 - JavaScript 
 - GitHub
+  ## tarefa
+ link do site: https://sitebarbie.netlify.app/
   
 O teste deve ser versionado e disponibilizado no GitHub do candidado.<br />
 Enviar o link para: brendacamara@opovodigital.com
